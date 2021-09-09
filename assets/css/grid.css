@@ -41,8 +41,8 @@
 }
 
 .c-2 {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%;
+    flex: 0 0 18%;
+    max-width: 18%;
 }
 
 .c-3 {
@@ -140,7 +140,7 @@
 }
 
 /* >= Tablet */
-@media (min-width: 740px) {
+@media (max-width: 980px) {
     .row {
         margin-left: -8px;
         margin-right: -8px;
