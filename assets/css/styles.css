@@ -179,7 +179,7 @@ html {
   background: #170f23;
   margin-left: 240px;
   margin-right: 325px;
-  height: 990px;
+  height: 100%;
   transition: transform linear 0.2s;
 }
 .header__main-items {
@@ -498,7 +498,19 @@ html {
 }
 
 /*list history*/
-
+.playlist__lists-music{
+  overflow-y: scroll;
+  height: 35%;
+}
+.playlist__lists-music::-webkit-scrollbar {
+  width: 3px;
+  border-radius: 30px;
+}
+.playlist__lists-music::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all linear 1s;
+  border-radius: 30px;
+}
 .list__history {
   margin-top: 15px;
 }
